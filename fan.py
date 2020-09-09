@@ -1,7 +1,7 @@
 import sys, os, RPi.GPIO as GPIO
 pin=12
 max=45
-min=50
+min=35
 
 def startup():
     GPIO.setwarnings(False)
