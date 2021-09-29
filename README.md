@@ -12,5 +12,13 @@ $> git clone https://github.com/jaybauson/RPi4-fan-gpio-temp-control.git auto-fa
 $> cd auto-fan && ./install.sh && cd .. && rm auto-fan -fr
 ```
 
+##### Notes
+You can update the settings on top of the `fan.py` file if you decided to use a different GPIO/Pin or target temperatures.
+````code
+pin=12  # this is the Pin12 or GPIO18
+max=42  # if the temp is higher than what yoyu have defined here, it will turn on the fan.
+min=35  # after reaching this temp, the fan will be turned off.
+````
+
 # Diagram
 ![N|Solid](https://raw.githubusercontent.com/jaybauson/RPi4-fan-gpio-temp-control/master/FAN-TempControl.png)
