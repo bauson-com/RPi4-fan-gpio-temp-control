@@ -1,7 +1,7 @@
 # RPi4-fan-gpio-temp-control
 
 ##### Requirements: 
-- 1 x Generic fan
+- 1 x Generic USB fan (I bought one from shopee, those ones that says mobile fan)
 - 1 x 2N2222 Diode
 - 1 x resistor (depending on your fan)
 
