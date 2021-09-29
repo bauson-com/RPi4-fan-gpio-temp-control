@@ -9,12 +9,12 @@ def startup():
     GPIO.setup(pin,GPIO.OUT)
 
 def getStatus():
-    with open('/home/pi/project/fan/log.txt', 'r') as file:
+    with open('/rpi-fan/status.txt', 'r') as file:
         data = file.read().replace('\n', '')
     return data
 
 def updateStatus(str):
-    status = open("/home/pi/project/fan/log.txt", "w")
+    status = open("/rpi-fan/status.txt", "w")
     status.write(str)
     status.close()
 
