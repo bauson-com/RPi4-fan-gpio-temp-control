@@ -21,4 +21,4 @@ min=35  # after reaching this temp, the fan will be turned off.
 ````
 
 # Diagram
-![N|Solid](https://raw.githubusercontent.com/jaybauson/RPi4-fan-gpio-temp-control/master/FAN-TempControl.png)
+![N|Solid](https://raw.githubusercontent.com/bauson-com/RPi4-fan-gpio-temp-control/master/FAN-TempControl.png)
