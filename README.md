@@ -8,7 +8,7 @@
 ##### Installation:
 Clone this repository and execute `install.sh`
 ```sh
-$> git clone https://github.com/jaybauson/RPi4-fan-gpio-temp-control.git auto-fan
+$> git clone https://github.com/RPi4-fan-gpio-temp-control/RPi4-fan-gpio-temp-control.git auto-fan
 $> cd auto-fan && ./install.sh && cd .. && rm auto-fan -fr
 ```
 
